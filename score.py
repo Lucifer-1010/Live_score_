@@ -58,7 +58,7 @@ print("\n")
 print("\n")    
 print("\n")    
 
-ch = int(input("1.Cricket\n2.Football\n3.Hockey\n4.tennis\n5.soccer\n 6.Baseball\n7.Basketball\nEnter your choice: "))
+ch = int(input("1.Cricket\n2.Football\n3.Hockey\n4.tennis\n5.soccer\n 6.Baseball\n7.Basketball\n\n99.exit\nEnter your choice: "))
 if ch == 1:
     cricket(ch)
 if ch == 2:
@@ -73,3 +73,5 @@ if ch == 6:
     Baseball(ch)
 if ch == 7:
     basketball(ch)
+if ch ==99:
+    exit()
